@@ -1,0 +1,85 @@
+body{
+    background-image: url(images/registerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.wrapper{
+    width: 350px;
+    margin: 8% auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+    box-shadow: 0 0 17px rgb(25, 24, 24);
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+}
+.wrapper form{
+    padding-left: 50px;
+}
+.wrapper form > input{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.gender{
+    font-size: medium;
+}
+.dob input{
+    width: 25%;
+    margin-left: 10px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.submith{
+    text-align: center;
+    margin-left: -30px;
+}
+.submith input{
+    height: 25px;
+    width: 80px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.submith input:hover{
+    background-color:black;
+    color: aliceblue;
+
+}
+.txt{
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+}
+.txt span a{
+    color: black;
+}
+
+.error{
+    height: 45px;
+    background-color: rgb(164, 27, 27);
+    color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+
+
+
+
